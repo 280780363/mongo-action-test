@@ -9,6 +9,6 @@ public class Tests
     public void DoTest()
     {
         var mongoClient = new MongoClient("mongodb://mongo:123123@localhost:27017/?authSource=admin");
-        mongoClient.GetDatabase("test");
+        mongoClient.GetDatabase("test").CreateCollection("test");
     }
 }

@@ -16,6 +16,6 @@ jobs:
           dotnet-version: 6.0.100
 
       - name: Setup Mongo
-        uses: 280780363/mongo-action@v0.7
+        uses: 280780363/mongo-action@v0.8
       - name: Test
         run: dotnet test ./mongo-action-test.sln
