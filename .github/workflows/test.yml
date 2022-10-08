@@ -17,5 +17,7 @@ jobs:
 
       - name: Setup Mongo
         uses: 280780363/mongo-action@0.10
+        with:
+          VERSION: latest
       - name: Test
         run: dotnet test ./mongo-action-test.sln
