@@ -18,4 +18,4 @@ jobs:
       - name: Setup Mongo
         uses: 280780363/mongo-action@v0.4
       - name: Test
-        run: dotnet test ./src/Shashlik.EventBus.sln
+        run: dotnet test ./test.sln
